@@ -19,40 +19,40 @@
     window["oj_whenReady"] = true;
 
     requirejs.config(
-    {
-      baseUrl: 'js',
+        {
+            baseUrl: 'js',
 
-      paths:
-      /* DO NOT MODIFY
-      ** All paths are dynamicaly generated from the path_mappings.json file.
-      ** Add any new library dependencies in path_mappings.json file
-      */
-      // injector:mainReleasePaths
-      {
-        'ojs': 'libs/oj/v11.0.1/debug',
-        'ojL10n': 'libs/oj/v11.0.1/ojL10n',
-        'ojtranslations': 'libs/oj/v11.0.1/resources',
-          'knockout': 'libs/knockout/knockout-3.5.1.debug',
-  'knockout-mapping': 'libs/knockout/knockout.mapping-latest.debug',
-  'jquery': 'libs/jquery/jquery-3.6.0',
-  'jqueryui-amd': 'libs/jquery/jqueryui-amd-1.12.1',
-  'text': 'libs/require/text',
-  'hammerjs': 'libs/hammer/hammer-2.0.8',
-  'signals': 'libs/js-signals/signals',
-  'ojdnd': 'libs/dnd-polyfill/dnd-polyfill-1.0.2',
-  'css': 'libs/require-css/css.min',
-  'css-builder': 'libs/require-css/css-builder',
-  'normalize': 'libs/require-css/normalize',
-  'preact': 'libs/preact/dist/preact.umd',
-  'preact/hooks': 'libs/preact/hooks/dist/hooks.umd',
-  'proj4': 'libs/proj4js/dist/proj4-src',
-  'touchr': 'libs/touchr/touchr'
-  ,
-        'chai': 'libs/chai/chai-4.3.4'
-      }
-      // endinjector
-    }
-  );
+            paths:
+            /* DO NOT MODIFY
+            ** All paths are dynamicaly generated from the path_mappings.json file.
+            ** Add any new library dependencies in path_mappings.json file
+            */
+            // injector:mainReleasePaths
+            {
+                'ojs': 'libs/oj/v11.0.1/debug',
+                'ojL10n': 'libs/oj/v11.0.1/ojL10n',
+                'ojtranslations': 'libs/oj/v11.0.1/resources',
+                'knockout': 'libs/knockout/knockout-3.5.1.debug',
+                'knockout-mapping': 'libs/knockout/knockout.mapping-latest.debug',
+                'jquery': 'libs/jquery/jquery-3.6.0',
+                'jqueryui-amd': 'libs/jquery/jqueryui-amd-1.12.1',
+                'text': 'libs/require/text',
+                'hammerjs': 'libs/hammer/hammer-2.0.8',
+                'signals': 'libs/js-signals/signals',
+                'ojdnd': 'libs/dnd-polyfill/dnd-polyfill-1.0.2',
+                'css': 'libs/require-css/css.min',
+                'css-builder': 'libs/require-css/css-builder',
+                'normalize': 'libs/require-css/normalize',
+                'preact': 'libs/preact/dist/preact.umd',
+                'preact/hooks': 'libs/preact/hooks/dist/hooks.umd',
+                'proj4': 'libs/proj4js/dist/proj4-src',
+                'touchr': 'libs/touchr/touchr'
+                ,
+                'chai': 'libs/chai/chai-4.3.4'
+            }
+            // endinjector
+        }
+    );
 }());
 
 /**
