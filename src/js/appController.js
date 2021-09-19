@@ -8,7 +8,7 @@
 /*
  * Your application specific code will go here
  */
-define(['ojs/ojcontext', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils', 'knockout', 'ojs/ojknockout'],
+define(['ojs/ojcontext', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils', 'knockout', 'ojs/ojknockout', 'ojs/ojmodule'],
     function (Context, ResponsiveUtils, ResponsiveKnockoutUtils, ko) {
 
         function ControllerViewModel() {
