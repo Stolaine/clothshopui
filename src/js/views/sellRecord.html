@@ -1,1 +1,24 @@
-<h1>This is SellRecord</h1>
+<oj-validation-group id="tracker" value="{{groupValid}}">
+    <oj-form-layout id="dailySellEntry" direction="row" max-columns="5">
+        <oj-input-date id="date" label-hint="Date" required value="{{date}}">
+        </oj-input-date>
+        <oj-input-text id="name" label-hint="Name" required value="{{name}}">
+        </oj-input-text>
+        <oj-input-text id="phoneNumber" label-hint="Phone Number" value="{{phoneNumber}}">
+        </oj-input-text>
+        <oj-input-text id="itemName" label-hint="Item Name" required value="{{itemName}}">
+        </oj-input-text>
+        <oj-input-text id="quantity" label-hint="Quantity" required value="{{quantity}}">
+        </oj-input-text>
+        <oj-select-single id="unit" label-hint="Unit" required data="[[unitDP]]" value="{{unit}}">
+        </oj-select-single>
+        <oj-input-text id="unitPrice" label-hint="Unit Price" required value="{{unitPrice}}">
+        </oj-input-text>
+        <oj-input-text id="sellingPrice" label-hint="Selling Price" required value="{{sellingPrice}}">
+        </oj-input-text>
+        <oj-input-text id="remaining" label-hint="Remaining" required value="{{remaining}}">
+        </oj-input-text>
+        <oj-button id="submitButton" on-oj-action="[[submit]]">Submit</oj-button>
+    </oj-form-layout>
+</oj-validation-group>
+
